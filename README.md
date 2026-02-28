@@ -93,9 +93,18 @@ The datasets were merged using **Order ID** as the primary key.
 
 ## 8. Project Structure
 
-ecommerce-sales-analytics/ │ ├── data/ │ ├── raw/ │ └── processed/ ├──
-notebooks/ ├── src/ ├── visuals/ ├── requirements.txt ├── README.md └──
-.gitignore
+ecommerce-sales-analytics/
+├── data/
+│   ├── raw/                # Original, immutable data dump
+│   └── processed/          # Cleaned data used for modeling/analysis
+├── notebooks/              # Jupyter notebooks for EDA and prototyping
+├── src/                    # Source code for data pipeline and functions
+│   ├── data_cleaning.py
+│   └── rfm_analysis.py
+├── visuals/                # Exported charts, plots, and dashboard screenshots
+├── .gitignore              # Files to exclude (e.g., .env, large csv files)
+├── README.md               # Project description and setup instructions
+└── requirements.txt        # List of Python dependencies (pandas, plotly, etc.)
 
 ------------------------------------------------------------------------
 

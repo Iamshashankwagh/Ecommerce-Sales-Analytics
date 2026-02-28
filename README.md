@@ -1,8 +1,8 @@
 # 🛒 E-Commerce Sales Data Analytics Project
 
-## 1. Executive Summary
+## 1. Summary
 
-This project analyzes historical e-commerce transaction data to uncover
+This project analyzes e-commerce transaction data to uncover
 revenue patterns, profitability drivers, customer purchasing behavior,
 and regional performance trends.\
 The goal is to derive actionable business insights that can improve
@@ -48,44 +48,21 @@ The datasets were merged using **Order ID** as the primary key.
 
 ## 4. Key Performance Indicators (KPIs)
 
--   📈 Total Revenue\
--   💰 Total Profit\
--   📊 Monthly Revenue Growth\
--   🛍 Category-wise Revenue & Profit\
--   🌍 State-wise Sales Distribution\
--   💳 Payment Mode Distribution\
--   🔁 Repeat Purchase Indicators
+-Amount
+-Profit
+-Quantity
+-AOV (Average Order Value)
+-Amount by State
+-Amount by Customer Name
+-Quantity by Payment Mode
+-Quantity by Category
+-Profit by Sub-Category
+-Profit by Month
+-Orders by City
 
 ------------------------------------------------------------------------
 
-## 5. Key Business Insights (Sample Insights Structure)
-
-> (Update with actual values after running analysis)
-
-### 🔹 Revenue Drivers
-
--   Top-performing category contributes majority of total revenue.
--   Certain states account for significant revenue share.
-
-### 🔹 Profitability Analysis
-
--   Some categories may generate high revenue but low profit margins.
--   Discount-heavy products reduce overall profitability.
-
-### 🔹 Sales Trend
-
--   Peak sales observed during specific months (seasonality).
--   Revenue trend indicates potential festival or promotional impact.
-
-### 🔹 Payment Behavior
-
--   Digital payments dominate transactions.
--   Cash on Delivery still contributes significantly in specific
-    regions.
-
-------------------------------------------------------------------------
-
-## 6. Recommendations
+## 5. Recommendations
 
 -   Focus marketing budget on high-margin categories.
 -   Optimize pricing strategy for low-margin products.
@@ -95,7 +72,7 @@ The datasets were merged using **Order ID** as the primary key.
 
 ------------------------------------------------------------------------
 
-## 7. Technical Stack
+## 6. Technical Stack
 
 -   Python
 -   Pandas
@@ -105,23 +82,16 @@ The datasets were merged using **Order ID** as the primary key.
 
 ------------------------------------------------------------------------
 
-## 8. How to Reproduce
+## 7. Project Learnings
 
-### Step 1: Install Dependencies
-
-pip install -r requirements.txt
-
-### Step 2: Run Data Cleaning
-
-python src/data_cleaning.py
-
-### Step 3: Run Exploratory Analysis
-
-python src/eda.py
+* Created an interactive dashboard to track and analyze online sales data.
+* Used complex parameters to drill down in worksheet and customization using filters and slicers.
+* Created connections, joined new tables, did calculations to manipulate data, and enabled user-driven parameters for visualization.
+* Used different types of customized visualization (bar chart, pie chart, donut chart, clustered bar chart, scatter chart, line chart, area chart, map, slicers, etc)
 
 ------------------------------------------------------------------------
 
-## 9. Project Structure
+## 8. Project Structure
 
 ecommerce-sales-analytics/ │ ├── data/ │ ├── raw/ │ └── processed/ ├──
 notebooks/ ├── src/ ├── visuals/ ├── requirements.txt ├── README.md └──
@@ -129,13 +99,7 @@ notebooks/ ├── src/ ├── visuals/ ├── requirements.txt ├─�
 
 ------------------------------------------------------------------------
 
-## 10. Author
+## 9. Author
 
 Shashank Wagh
-
-------------------------------------------------------------------------
-
-## 11. License
-
-This project is for educational and portfolio purposes.
 
